@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  australia-assignment:
+    image: australia-assignment:latest
+    ports:
+      - "8001:8000"
+networks:
+  assignment-networks:
+    driver: bridge
+volumes:
+  assignment-volumes:

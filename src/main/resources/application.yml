@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: australia-demo
+  profiles:
+    active: ${SPRING_PROFILE}
+server:
+  port: 8000
