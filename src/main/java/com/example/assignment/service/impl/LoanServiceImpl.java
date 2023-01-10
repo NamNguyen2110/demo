@@ -56,6 +56,7 @@ public class LoanServiceImpl implements LoanService {
         // save payment of loan
         Payment payment = paymentMapper.toEntity(paidDTO);
         payment.setDebt(debt);
+        payment.setApplicant(loan.getApplicant());
         paymentRepository.save(payment);
 
         return loan;

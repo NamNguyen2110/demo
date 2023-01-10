@@ -7,4 +7,5 @@ public class PaymentDTO {
     private Long loanId;
     private Double paidAmount;
     private Double debt;
+    private String applicant;
 }
