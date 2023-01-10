@@ -32,9 +32,9 @@ public class LoanServiceImpl implements LoanService {
 
         //TODO: validate loan data
 
-        //TODO: validate limit of credis: total loan amount < credit
+        //TODO: validate limit of credis of applicant: total loan amount < credit
 
-        //TODO: validate startDate, endDate of credit
+        //TODO: validate startDate < now < endDate of credit
 
         return loanRepository.save(loanMapper.toEntity(loanDTO));
     }
