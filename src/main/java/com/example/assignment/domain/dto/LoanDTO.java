@@ -8,9 +8,10 @@ import java.time.LocalDate;
 public class LoanDTO {
     private Long loanId;
     private Double amount;
+    private Double remainingAmount;
     private String currency;
     private LocalDate startDate;
     private LocalDate endDate;
     private Double interestRate;
-    private String applicant;
+    private String applicantId;
 }

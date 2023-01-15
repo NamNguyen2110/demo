@@ -11,5 +11,5 @@ public interface LoanService {
 
     Loan paidLoan(PaymentDTO paidDTO) throws Exception;
 
-    List<Loan> getLoanByApplicant(String applicant);
+    List<Loan> getLoanByApplicant(String applicantId);
 }

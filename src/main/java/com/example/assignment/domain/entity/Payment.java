@@ -16,5 +16,5 @@ public class Payment {
     private Long loanId;
     private Double paidAmount;
     private Double debt;
-    private String applicant;
+    private String applicantId;
 }
